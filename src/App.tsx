@@ -31,7 +31,7 @@ function App() {
 
   return (
     <div className={`for-containerss ${isOpen ? 'fold-open' : ''} ${isDaytime ? 'daytime' : 'nighttime'}`}>
-      <div className="content-wrapper">
+      <div className="first-areast">
         <div className="for-txtarea">
           <p>
             "The science of operations, as derived from mathematics more
