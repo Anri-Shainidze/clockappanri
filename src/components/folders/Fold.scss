@@ -1,4 +1,10 @@
 @media (min-width: 786px) {
+  h2{
+    font-size: 51px;
+  }
+  p{
+    font-size: 21px;
+  }
     .for-timer {
       display: flex;
       flex-direction: row;
@@ -6,11 +12,5 @@
       gap: 1.5rem;
       justify-content: space-between;
       align-items: end;
-    }
-    h2{
-      font-size: 51px;
-    }
-    p{
-      font-size: 21px;
     }
   }
