@@ -43,11 +43,11 @@ const Time: React.FC<TimeProps> = () => {
 
   return (
     <div className="clock">
-      <div className="top-part">
+      <div className="some-partof ">
        <div>{getGreeting1()}</div>
         <span style={{color:"white"}}>{getGreeting()}</span>
       </div>
-      <div className="bottom">
+      <div className="indown">
         <h1>{formatTime(time)}</h1>
         <span style={{color:"white"}}>IN LONDON, UK</span>
       </div>

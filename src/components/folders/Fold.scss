@@ -1,16 +1,16 @@
 @media (min-width: 786px) {
-    .time-section {
+    .for-timer {
       display: flex;
       flex-direction: row;
-      gap: 1.5rem;
       z-index: 20;
-      align-items: end;
+      gap: 1.5rem;
       justify-content: space-between;
-    }
-    p{
-      font-size: 20px;
+      align-items: end;
     }
     h2{
-      font-size: 50px;
+      font-size: 51px;
+    }
+    p{
+      font-size: 21px;
     }
   }

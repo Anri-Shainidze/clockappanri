@@ -34,8 +34,8 @@ function App() {
       <div className="first-areast">
         <div className="for-txtarea">
           <p>
-            "The science of operations, as derived from mathematics more
-            especially, is a science of itself, and has its own abstract truth
+            "The science of operations, as derived from mathematics more <br />
+            especially, is a science of itself, and has its own abstract truth <br />
             and value."
           </p>
           <p>Ada Lovelace</p>
@@ -47,9 +47,9 @@ function App() {
             {isOpen ? 'Less' : 'More'} 
             <IoIosArrowDropdownCircle 
               style={{ 
-                marginLeft: '10px', 
-                color: "#303030", 
+                marginLeft: '11px', 
                 cursor: "pointer",
+                color: "#303030", 
               }} 
             />
           </button>
