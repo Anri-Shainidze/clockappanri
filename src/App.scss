@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 
 * {
-  margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  margin: 0;
   font-family: "Inter", sans-serif;
+  box-sizing: border-box;
 }
 
 
@@ -24,6 +24,10 @@
     position: relative;
     overflow: hidden;
   }
+  p:last-child {
+    color: #c0c0c0;
+    font-weight: bold;
+  }
   p:first-child {
     color: #c0c0c0;
     font-size: 0.75rem;
@@ -31,10 +35,6 @@
     margin-bottom: 0.5rem;
   }
 
-  p:last-child {
-    color: #c0c0c0;
-    font-weight: bold;
-  }
 }
 
 
@@ -44,7 +44,6 @@ button {
   height: 46px;
   border-radius: 28px;
   background-color: white;
-  text-transform: uppercase;
   letter-spacing: 5px;
   display: flex;
   align-items: center;
@@ -106,7 +105,6 @@ button {
   height: 46px;
   border-radius: 28px;
   background-color: white;
-  text-transform: uppercase;
   letter-spacing: 5px;
   display: flex;
   align-items: center;
@@ -122,7 +120,6 @@ button {
   height: 250px;
   background: rgba(255, 255, 255, 0.75);
   backdrop-filter: blur(40px);
-  transition: bottom 0.6s ease-in-out;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -157,8 +154,8 @@ button {
     font-size: 0.7rem;
     color: #666;
     text-transform: uppercase;
-    letter-spacing: 2px;
     margin-bottom: 0.3rem;
+    letter-spacing: 2px;
   }
 
   h2 {
@@ -214,35 +211,33 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
   z-index: 10;
+  padding: 2rem;
 
-  &.daytime {
-    background: rgba(255, 255, 255, 0.75);
-    backdrop-filter: blur(40px);
-    color: black;
-  }
-
-  &.nighttime {
+  
+  &.fornight {
     background-image: url(../src/assets/images/night.png);
-    background: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(40px);
+    background: rgba(0, 0, 0, 0.5);
     color: white;
-
+    
+    &.forday {
+      background: rgba(255, 255, 255, 0.75);
+      backdrop-filter: blur(40px);
+      color: black;
+    }
     .all-foritem {
+      h2 {
+        color: white;
+      }
       p {
         color: rgba(255, 255, 255, 0.7);
       }
 
-      h2 {
-        color: white;
-      }
     }
   }
 
-  &.open {
-    bottom: 0;
-  }
+
 }
 
 .first-content {
@@ -258,6 +253,9 @@ h1 {
   width: 100%;
 }
 
+.for-containerss.fornight {
+  background-image: url("/src/assets/images/night.png");
+}
 .all-foritem {
   display: flex;
   flex-direction: row;
@@ -277,9 +275,6 @@ h1 {
   }
 }
 
-.for-containerss.nighttime {
-  background-image: url("/src/assets/images/night.png");
-}
 
 
 .all-inrow {
@@ -311,12 +306,12 @@ h1 {
   }
   .all-foritem h2 {
     font-size: 3.2rem;
-}
+  }
+  button{
+    width: 10%;
+  }
 .all-foritem p {
   font-size: 1rem
-}
-button{
-  width: 10%;
 }
 .for-containerss{
   padding: 4rem;

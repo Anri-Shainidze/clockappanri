@@ -30,7 +30,7 @@ function App() {
   };
 
   return (
-    <div className={`for-containerss ${isOpen ? 'fold-open' : ''} ${isDaytime ? 'daytime' : 'nighttime'}`}>
+    <div className={`for-containerss ${isOpen ? 'fold-open' : ''} ${isDaytime ? 'forday' : 'fornight'}`}>
       <div className="first-areast">
         <div className="for-txtarea">
           <p>
