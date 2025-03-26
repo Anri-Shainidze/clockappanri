@@ -1,8 +1,12 @@
 import  { useState, useEffect } from 'react';
 import './App.scss';
-import Time from './components/time/Time';
+import Fold from './components/folders/Fold';
+import Time from './components/fortimer/Time';
 import { IoIosArrowDropdownCircle } from 'react-icons/io';
-import Fold from './components/fold/Fold';
+
+
+
+
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
