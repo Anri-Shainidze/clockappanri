@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { IoSunny } from "react-icons/io5";
 import { FaMoon } from "react-icons/fa";
+import { IoSunny } from "react-icons/io5";
+
+
+
 interface TimeProps {
   isDaytime: boolean;
 }
